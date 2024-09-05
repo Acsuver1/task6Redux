@@ -1,0 +1,70 @@
+/* Overall login container with a pastel gradient background */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f4fcc3, #5a7897);
+  position: relative;
+  padding: 20px;
+}
+
+/* Form wrapper with a glassmorphism effect */
+.login-form-wrapper {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Custom styling for input fields */
+.custom-input {
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  height: 50px;
+  padding: 10px;
+  transition: all 0.3s;
+  font-size: 16px;
+}
+
+.custom-input:focus {
+  border-color: #8ec5fc;
+  box-shadow: 0 0 8px rgba(142, 197, 252, 0.6);
+}
+
+/* Submit button styling with Ant Design primary colors */
+.submit-button {
+  background: #7f7fd5;
+  border: none;
+  color: #ffffff;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.submit-button:hover {
+  background: #86a8e7;
+}
+
+/* Register and Forgot Password links with a modern style */
+.login-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.login-links a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.login-links a:hover {
+  color: #d4fc79;
+}
